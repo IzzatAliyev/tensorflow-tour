@@ -5,7 +5,7 @@ print("TensorFlow version:", tf.__version__)
 tensor = tf.constant("Hello, TensorFlow!")
 print(tensor)
 
-# download so lang and not efficient to build locally(better to use google colab)
+# downloading is so lang and not efficient to build locally(better to use google colab)
 mnist = tf.keras.datasets.mnist
 print(mnist)
 
